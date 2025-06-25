@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\LoginGuide;
 
-class Panduancontrol extends Controller
+class PanduanControl extends Controller
 {
     public function index()
     {
-        $loginGuides = LoginGuide::all();
-        return view('panduan', compact('loginGuides'));
+        $data = LoginGuide::orderBy('id')->get(); // Ambil semua data, urut berdasarkan ID
+        return view('panduan', compact('data'));
     }
 }

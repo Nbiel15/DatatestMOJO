@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Panduan Ganti password</title>
-    <link rel="stylesheet" href="" />"
+    <title>Panduan Registrasi</title>
+    <link rel="stylesheet" href="" />
     <script
       src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js"
       defer
@@ -27,7 +27,7 @@
   <body class="bg-[#F3F6FB]">
     <main class="">
       
-     <div class="">
+      <div class="">
 
         
 
@@ -64,14 +64,15 @@
               <div id="kategoriMenu" class="absolute left-[-100px] mt-2 w-[150px] bg-[#F7FAFC] rounded-lg shadow-md p-4 space-y-2 text-sm text-gray-700 transition-all duration-300 transform scale-95 opacity-0 invisible z-50  ">
                 <ul>
                   <li><a href="/Datakeluarga" class="block hover:bg-gray-200 rounded px-2 py-1 hover:text-[#A01010]">cara menambah data keluarga</a></li>
-                  <li><a href="/registrasi" class="block hover:bg-gray-200 rounded px-2 py-1 hover:text-[#A01010]">Cara registrasi</a></li>
-                  <li><a href="/panduan" class="block bg-gray-200 rounded px-2 py-1 text-[#A01010]">Panduan ganti password di aplikasi</a></li>
+                  <li><a href="/registrasi" class="block bg-gray-200 rounded px-2 py-1 text-[#A01010]">Cara registrasi</a></li>
+                  <li><a href="/panduan" class="block hover:bg-gray-200 rounded px-2 py-1 hover:text-[#A01010]">Panduan ganti password di aplikasi</a></li>
                   <li><a href="/cuaca" class="block hover:bg-gray-200 rounded px-2 py-1 hover:text-[#A01010]">Cara memantau cuaca melalui aplikasi Mojocaakti</a></li>
                   <li><a href="/itr" class="block hover:bg-gray-200 rounded px-2 py-1 hover:text-[#A01010]">Panduan Layanan ITR</a></li>
                   <li><a href="/krk" class="block hover:bg-gray-200 rounded px-2 py-1 hover:text-[#A01010]">Cara mengakses KRK</a></li>
+                  
 
 
-
+                 
                 </ul>
               </div>
             </div>
@@ -124,25 +125,26 @@
         </nav>
       </div>
       
-<section class="md:px-[150px] mt-[50px]">
+<section class="md:px-[150px] mt-[50px]  ">
   
 <div class="flex flex-col md:flex-row gap-[50px]">
 
     <!-- Sidebar Kategori -->
-   <aside class="w-full md:w-1/4 bg-[#F7FAFC] rounded-lg p-4 hidden lg:block">
+  <aside class="w-full md:w-1/4 bg-[#F7FAFC] rounded-lg p-4 hidden lg:block">
   <h2 class="font-bold text-gray-800 mb-4">Layanan</h2>
   <ul class="space-y-2 text-sm text-gray-700">
-    <li><a href="/panduan" class="block rounded px-2 py-1 bg-gray-200 text-[#A01010] sm:line-clamp-2">Cara mengubah password di aplikasi Mojocaakti</a></li>
+    <li><a href="/panduan" class="block rounded px-2 py-1 hover:bg-gray-200 hover:text-[#A01010] sm:line-clamp-2">Cara mengubah password di aplikasi Mojocaakti</a></li>
     <li><a href="/Datakeluarga" class="block  hover:bg-gray-200 hover:text-[#A01010] rounded px-2 py-1 sm:line-clamp-2">Cara menambahkan Data Keluarga</a></li>
-    <li><a href="/registrasi" class="block rounded px-2 py-1 hover:bg-gray-200 hover:text-[#A01010] sm:line-clamp-2">Panduan Registrasi aplikasi Mojocaakti</a></li>
+    <li><a href="/registrasi" class="block rounded px-2 py-1 bg-gray-200 text-[#A01010] sm:line-clamp-2">Panduan Registrasi aplikasi Mojocaakti</a></li>
      <li><a href="/cuaca" class="block rounded px-2 py-1 hover:bg-gray-200 hover:text-[#A01010] sm:line-clamp-2">Cara memantau cuaca melalui aplikasi Mojocaakti</a></li>
      <li><a href="/itr" class="block rounded px-2 py-1 hover:bg-gray-200 hover:text-[#A01010] sm:line-clamp-2">Panduan Layanan ITR</a></li>
     <li><a href="/krk" class="block rounded px-2 py-1 hover:bg-gray-200 hover:text-[#A01010] sm:line-clamp-2">Panduan Layanan KRK</a></li> 
+     
   </ul>
 </aside>
 
 
-<section class=" lg:mt-[0] mt-[-30px] px-2  ">
+<section class=" lg:mt-[0] mt-[-30px] px-2   ">
 
     
    <div>
@@ -154,9 +156,9 @@
       </a>
        
     </div>
-
+    
     <div class="text-[30px] font-bold mt-3 leading-[35px] text-left ">
-        <p>Ubah Kata Sandi Mojocaakti Kamu Sekarang – Aman & Anti Ribet!</p>
+        <p>Panduan registrasi awal di aplikasi Mojocaakti</p>
     </div>
 
     <div class=" h-[1px] bg-gray-500  opacity-[50%] mt-3 xl:w-[950px] w-[350px] md:w-[650px]  "></div>
@@ -167,7 +169,7 @@
 
          
                 <h1 class=" mt-[10px] text-[28px] text-gray-800 font-semibold leading-[35px] text-left">
-                Panduan mengubah sandi akun aplikasi Mojocaakti</h1>
+                Panduan Registrasi akun mojocaakti</h1>
 
         </div>
         <br class="csh-new-line">
@@ -180,17 +182,18 @@
               </span>
 
               <span class=" justify-center font-semibold  text-left text-sm">{{ $item->title }}</span>
-           </div>
-              <div class="flex justify-center items-center mt-10 ">
+            </div>
+              <div class="flex justify-center items-center ">
                 @if ($item->image)
 
-                <img class="mt-2 flex w-[300px] " src="{{ asset('storage/' . $item->image) }}" alt="Gambar Langkah {{ $index + 1 }}" 
+                <img class="mt-5 flex w-[300px] " src="{{ asset('storage/' . $item->image) }}" alt="Gambar Langkah {{ $index + 1 }}" 
                 @endif
-              
-                />
-            
 
-              </div>
+                />
+             
+
+             </div>
+                
             
 
         </div>
