@@ -62,14 +62,32 @@
               </button>
 
               <div id="kategoriMenu" class="absolute left-[-100px] mt-2 w-[150px] bg-[#F7FAFC] rounded-lg shadow-md p-4 space-y-2 text-sm text-gray-700 transition-all duration-300 transform scale-95 opacity-0 invisible z-50  ">
-                <ul>
-                  <li><a href="/Datakeluarga" class="block hover:bg-gray-200 rounded px-2 py-1 hover:text-[#A01010]">cara menambah data keluarga</a></li>
-                  <li><a href="/registrasi" class="block hover:bg-gray-200 rounded px-2 py-1 hover:text-[#A01010]">Cara registrasi</a></li>
-                  <li><a href="/panduan" class="block hover:bg-gray-200 rounded px-2 py-1 hover:text-[#A01010]">Panduan ganti password di aplikasi</a></li>
-                  <li><a href="/cuaca" class="block bg-gray-200 rounded px-2 py-1 text-[#A01010]">Cara memantau cuaca melalui aplikasi Mojocaakti</a></li>
-                  <li><a href="/itr" class="block hover:bg-gray-200 rounded px-2 py-1 hover:text-[#A01010]">Panduan Layanan ITR</a></li>
-                  <li><a href="/krk" class="block hover:bg-gray-200 rounded px-2 py-1 hover:text-[#A01010]">Cara mengakses KRK</a></li>
-                </ul>
+                  <details class="mb-2 group">
+                  <summary class="cursor-pointer font-semibold text-gray-700 hover:text-[#A01010]">Layanan Bantuan Login</summary>
+                  <ul class="ml-4 mt-2 text-sm text-gray-500 space-y-1">
+                    <li><a href="/panduan" class="block hover:text-[#A01010]">Cara mengubah password</a></li>
+                    <li><a href="/Datakeluarga" class="block hover:text-[#A01010]">Cara menambahkan Data Keluarga</a></li>
+                    <li><a href="/registrasi" class="block hover:text-[#A01010]">Panduan Registrasi</a></li>
+                  </ul>
+                </details>
+
+                
+                <details class="mb-2 group">
+                  <summary class="cursor-pointer font-semibold text-gray-700 hover:text-[#A01010]">Layanan Bantuan Tata Ruang</summary>
+                  <ul class="ml-4 mt-2 text-sm text-gray-500 space-y-1">
+                    <li><a href="/itr" class="block hover:text-[#A01010]">Panduan Layanan ITR</a></li>
+                    <li><a href="/krk" class="block hover:text-[#A01010]">Panduan Layanan KRK</a></li>
+                  </ul>
+                </details>
+
+                
+                <details class="group">
+                  <summary class="cursor-pointer font-semibold text-gray-700 hover:text-[#A01010]">Informasi Cuaca</summary>
+                  <ul class="ml-4 mt-2 text-sm text-gray-500 space-y-1">
+                    <li><a href="/cuaca" class="block text-[#A01010]">Pantau cuaca Mojokerto</a></li>
+                  </ul>
+                </details>
+
               </div>
             </div>
 
@@ -128,14 +146,33 @@
     <!-- Sidebar Kategori -->
    <aside class="w-full md:w-1/4 bg-[#F7FAFC] rounded-lg p-4 hidden lg:block  ">
   <h2 class="font-bold text-gray-800 mb-4">Layanan</h2>
-  <ul class="space-y-2 text-sm text-gray-700">
-    <li><a href="/panduan" class="block rounded px-2 py-1 hover:bg-gray-200 hover:text-[#A01010] sm:line-clamp-2 ">Cara mengubah password di aplikasi Mojocaakti</a></li>
-    <li><a href="/Datakeluarga" class="block hover:bg-gray-200 hover:text-[#A01010] rounded px-2 py-1 sm:line-clamp-2">Cara menambahkan Data Keluarga</a></li>
-    <li><a href="/registrasi" class="block rounded px-2 py-1 hover:bg-gray-200 hover:text-[#A01010] sm:line-clamp-2">Panduan Registrasi aplikasi Mojocaakti</a></li>
-    <li><a href="/cuaca" class="block rounded px-2 py-1 bg-gray-200 text-[#A01010] sm:line-clamp-2">Cara memantau cuaca melalui aplikasi Mojocaakti</a></li>
-    <li><a href="/itr" class="block rounded px-2 py-1 hover:bg-gray-200 hover:text-[#A01010] sm:line-clamp-2">Panduan Layanan ITR</a></li>
-    <li><a href="/krk" class="block rounded px-2 py-1 hover:bg-gray-200 hover:text-[#A01010] sm:line-clamp-2">Panduan Layanan KRK</a></li>
-  </ul>
+
+                <details class="mb-2 group">
+                  <summary class="cursor-pointer font-semibold text-gray-700 hover:text-[#A01010]">Layanan Bantuan Login</summary>
+                  <ul class="ml-4 mt-2 text-sm text-gray-500 space-y-1">
+                    <li><a href="/panduan" class="block hover:text-[#A01010]">Cara mengubah password</a></li>
+                    <li><a href="/Datakeluarga" class="block hover:text-[#A01010]">Cara menambahkan Data Keluarga</a></li>
+                    <li><a href="/registrasi" class="block hover:text-[#A01010]">Panduan Registrasi</a></li>
+                  </ul>
+                </details>
+
+                
+                <details class="mb-2 group">
+                  <summary class="cursor-pointer font-semibold text-gray-700 hover:text-[#A01010]">Layanan Bantuan Tata Ruang</summary>
+                  <ul class="ml-4 mt-2 text-sm text-gray-500 space-y-1">
+                    <li><a href="/itr" class="block hover:text-[#A01010]">Panduan Layanan ITR</a></li>
+                    <li><a href="/krk" class="block hover:text-[#A01010]">Panduan Layanan KRK</a></li>
+                  </ul>
+                </details>
+
+                
+                <details class="group">
+                  <summary class="cursor-pointer font-semibold text-gray-700 hover:text-[#A01010]">Informasi Cuaca</summary>
+                  <ul class="ml-4 mt-2 text-sm text-gray-500 space-y-1">
+                    <li><a href="/cuaca" class="block text-[#A01010]">Pantau cuaca Mojokerto</a></li>
+                  </ul>
+                </details>
+
 </aside>
 
 
